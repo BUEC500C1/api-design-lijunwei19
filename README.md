@@ -1,8 +1,15 @@
 # api-design-lijunwei19
 api-design-lijunwei19 created by GitHub Classroom
-##
-pip install pytest
-##
-pip install requests
-## 
-pip install pprint
+
+
+# Preparation
+## Download essential files    
+clone my repo:   
+```
+https://github.com/BUEC500C1/api-design-lijunwei19.git
+```
+
+from AirportWeatherAPI import airport_Weather 
+```
+  
+```
