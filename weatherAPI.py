@@ -38,24 +38,25 @@ def weather_data_download(id, country):
   # print(url)
  
   Json_data = requests.get(url).json()
+
+  return Json_data
   
-  pp (Json_data)
+  # pp (Json_data)
   
-  if "message" in Json_data:
+  # if "message" in Json_data:
   
-    return False
+  #   return False
   
-  else:
+  # else:
   
-    return True 
+  #   return True 
 
 
-# def main():
+def main():
 
-#   print(weather_data_download(65201, "us"))
+  print(weather_data_download((40.07080078125,-74.93360137939453, ), "us"))
 
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
 
-#   main()
-#   
+  main()
